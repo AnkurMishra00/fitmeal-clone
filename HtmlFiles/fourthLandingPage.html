@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@800&family=Open+Sans:wght@300&family=Sacramento&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Open+Sans:wght@300&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;500&family=Open+Sans:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+  </head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: rgb(245, 243, 243);
+      justify-content: center;
+    }
+    .fourthContainer {
+      background-image: url("https://www.fitmeals.co.in/wp-content/uploads/2019/10/plate_rounded.jpg");
+      width: 80%;
+      height: 200px;
+      background-size: cover;
+      margin-left: 10%;
+      /* max-width: 100%; */
+    }
+
+    /* .fourthContainer:hover{
+        transform: rotate(45deg); 
+    } */
+    
+    .fourthContainer1 {
+      background-image: url("https://www.fitmeals.co.in/wp-content/uploads/2019/10/veg_pattern_01.png?id=10839");
+      background-color: #8ec038;
+      height: 1000px;
+      width: 100%;
+    }
+    .fourthContainer11 {
+      background-image: url("https://www.fitmeals.co.in/wp-content/uploads/2019/10/nutrion-left.png");
+      height: 800px;
+      width: 100%;
+      margin-left: -30px;
+      background-repeat: no-repeat;
+      /* box-sizing: border-box; */
+      /* background-color: rebeccapurple; */
+    }
+    .fourthContainer111 {
+      background-color: rgb(245, 243, 243);
+      height: 700px;
+      width: 1050px;
+      margin-left: 170px;
+      vertical-align: middle;
+    }
+    .hack {
+      height: 100px;
+    }
+
+    .fourthContainer111Htop {
+      /* font-family: 'Open Sans', sans-serif; */
+      font-family: "Sacramento", cursive;
+      color: #8ec038;
+      font-size: 40px;
+      text-align: center;
+      /* font-weight: 300; */
+      /* margin-top: 50px; */
+      vertical-align: middle;
+    }
+
+    .fourthContainer111Htop1 {
+      font-size: 30px;
+      text-align: center;
+      font-family: "Open Sans", sans-serif;
+      vertical-align: middle;
+    }
+    .fourthContainer1111 {
+      display: flex;
+      justify-content: space-around;
+    }
+    .fourthContainer11111,
+    .fourthContainer11112,
+    .fourthContainer11113,
+    .fourthContainer11114 {
+      cursor: pointer;
+      line-height: 1em;
+      padding: 15px 32px;
+      margin: 0;
+      display: block;
+      font-size: 16px;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+      font-family: "Fira Sans", serif;
+      /* font-family: var(--font-headers), serif; */
+      font-weight: 700;
+      border: 2px solid #d6111e;
+      border-color: transparent;
+      -webkit-border-radius: 24px;
+      -moz-border-radius: 24px;
+      border-radius: 24px;
+      background-clip: border-box;
+    }
+    .fourthContainer11111:hover,
+    .fourthContainer11112:hover,
+    .fourthContainer11113:hover,
+    .fourthContainer11114:hover {
+      color: #8ec038;
+      /* background-color: dimgrey; */
+      /* border: 1px solid red; */
+    }
+    /* change content onclick */
+    .fourthContainer1112 {
+      display: flex;
+      flex: 1 1 50%;
+      justify-content: space-around;
+    }
+    .fourthContainer11121 > img {
+      border-radius: 24px;
+      margin: 2%;
+      width: 100%;
+      padding: auto;
+    }
+    .btn {
+      width: 150px;
+      border-radius: 755px;
+      font-size: 15px;
+      font-family: "Fira Sans", serif;
+      color: whitesmoke;
+      background-color: #da2424;
+      border: transparent 1px solid;
+      padding: 15px 33px;
+    }
+    .btn:hover {
+      text-decoration: none;
+
+      /* border-radius: 20px;
+      font-size: 20px; */
+
+      /* font-family: "Fira Sans", serif; */
+      color: whitesmoke;
+      background-color: darkslategrey;
+      border: transparent 1px solid;
+      /* padding: 10px; */
+    }
+
+    .btn > a {
+      text-decoration: none;
+      color: whitesmoke;
+    }
+    .header {
+      font-size: 22px;
+      font-family: "Fira Sans", sans-serif;
+      /* font-family: 'Open Sans', sans-serif;
+font-family: 'Sacramento', cursive; */
+    }
+    .header:hover {
+        cursor: pointer;
+        color: #8ec038;
+    }
+    .header1 {
+      font-size: 15px;
+      font-family: "Fira Sans", sans-serif;
+      color: #8ec038;
+    }
+    .header2 {
+      font-size: 15px;
+      font-family: "Fira Sans", sans-serif;
+      color: dimgrey;
+    }
+
+    /* https://www.fitmeals.co.in/wp-content/uploads/2019/10/veg_pattern_01.png?id=10839 */
+  </style>
+  <body>
+    <div class="fourthContainer" id="fourth"></div>
+    <!-- <img src="https://www.fitmeals.co.in/wp-content/uploads/2019/10/plate_rounded.jpg" alt=""> -->
+    <div class="fourthContainer1">
+      <!-- <img src="https://www.fitmeals.co.in/wp-content/uploads/2019/10/nutrion-left.png" alt=""> -->
+
+      <div class="hack"></div>
+      <div class="fourthContainer11">
+        <div class="fourthContainer111" id="fourth111">
+          <div class="fourthContainer111Htop">Hungry yet?</div>
+          <div class="fourthContainer111Htop1">
+            <h2>Choose your Meal Plan</h2>
+          </div>
+          <div class="fourthContainer1111">
+            <div class="fourthContainer11111" id="fourth11111">
+              Weight Loss Meal Plan
+            </div>
+            <div class="fourthContainer11112" id="fourth11112">
+              Athletic Meal Plan
+            </div>
+            <div class="fourthContainer11113" id="fourth11113">
+              Maintenance Meal Plan
+            </div>
+            <div class="fourthContainer11114" id="fourth11114">
+              Keto Meal Plan
+            </div>
+          </div>
+          <!-- Change Content Onclick -->
+          <div id="output"></div>
+          <!-- <div class="fourthContainer1112">
+            <div class="fourthContainer11121"><img src="https://www.fitmeals.co.in/wp-content/uploads/2021/05/weight.jpg" alt="Weight Loss Meal Plan"></div>
+            <div class="fourthContainer11122">
+                <h4 class="header">Weight Loss Meal Plan</h4>
+                <h6 class="header1">1200-1400 kca</h6>
+                <p class="header2">
+                    <span>If your aim is to lose weight in a gradual, healthy manner then this diet</span><br />
+                    <span>would meet your requirements. The meals are well balanced and consist of</span><br />
+                    <span>complex carbohydrates, lean protein, healthy fats and generous portions of</span><br />
+                    <span>fruits and vegetables which add all the essential vitamins, minerals and fibre</span><br />
+                    <span>to your diet.</span><br />
+                </p>
+                <button class="btn">
+                    <a href="#"><span> Read Me </span></a>
+                  </button>
+            </div>
+          </div> -->
+        </div>
+      </div>
+      <!-- <div></div> -->
+    </div>
+  </body>
+</html>
+<script type="module">
+  let x = fourth11111;
+  import {
+    weightLossMealPlan,
+    athleticMealPlan,
+    maintenanceMealPlan,
+    ketoMealPlan,
+  } from "../Scripts/fourthLandingPage.js";
+  document.getElementById("output").innerHTML = weightLossMealPlan();
+  // object.style.border
+  x.style.border = "4px solid #8ec038";
+  document.getElementById(`fourth11111`).addEventListener("click", myFunction);
+  function myFunction() {
+    document.getElementById("output").innerHTML = weightLossMealPlan();
+    x.attributeStyleMap.clear();
+    x = fourth11111;
+
+    x.style.border = "4px solid #8ec038";
+  }
+  document.getElementById(`fourth11112`).addEventListener("click", myFunction1);
+  function myFunction1() {
+    document.getElementById("output").innerHTML = athleticMealPlan();
+    x.attributeStyleMap.clear();
+    x = fourth11112;
+
+    x.style.border = "4px solid #8ec038";
+  }
+  document.getElementById(`fourth11113`).addEventListener("click", myFunction2);
+  function myFunction2() {
+    document.getElementById("output").innerHTML = maintenanceMealPlan();
+    x.attributeStyleMap.clear();
+    x = fourth11113;
+
+    x.style.border = "4px solid #8ec038";
+  }
+  document.getElementById(`fourth11114`).addEventListener("click", myFunction3);
+  function myFunction3() {
+    document.getElementById("output").innerHTML = ketoMealPlan();
+    x.attributeStyleMap.clear();
+    x = fourth11114;
+
+    x.style.border = "4px solid #8ec038";
+  }
+</script>

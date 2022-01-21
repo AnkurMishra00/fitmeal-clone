@@ -1,0 +1,25 @@
+.carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    /* width: 15%; */
+    font-size: 20px;
+    color: rgb(253, 241, 241);
+    text-align: center;
+    background: transparent !important;
+    width: none !important;
+  
+    /* opacity: .5; */
+  }
+  .carousel-caption > h1 {
+    font-family: "Fira Sans", sans-serif;
+    text-align: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 50px;
+  }
+  .carousel-caption > p {
+    font-family: "Fira Sans", sans-serif;
+    margin-bottom: 300px;
+  }

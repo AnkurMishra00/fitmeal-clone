@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.plansAndFeatures {
+  width: 100% !important;
+  height: 200px;
+  background-color: greenyellow;
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  width: 16.9%;
+  height: 50%;
+  margin: auto;
+  border: none;
+  border-right: 1px solid white;
+  color: white;
+  text-align: center;
+  background: transparent;
+}
+.cardIcon {
+  height: 40px;
+  width: 40px;
+  margin: auto;
+  align-items: center;
+  color: white;
+}
+.cardCaption {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+}
+/* part second css */
+.imageAndHeading {
+  width: 100%;
+  /* height: 420px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f3f5ed;
+}
+.imageAndHeading img {
+  border-radius: 20px;
+}
+
+.textAndHeadingContainer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.textAndHeadingContainer > h1 {
+  font-weight: 800;
+  font-size: 40px;
+}
+.textAndHeadingContainer > h1 > span {
+  color: greenyellow;
+}
+.textAndHeadingContainer > p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.smallCard {
+  display: inline-block;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.smallCard > span {
+  margin-left: 20px;
+  font-weight: 800;
+  margin-top: 10px;
+}
+/* styles for our services */
+
+.ourServices {
+  text-align: center;
+}
+.ourServices > h6 {
+  font-size: 40px;
+  font-weight: 300;
+  font-family: "Sacramento", cursive;
+  padding-top: 30px;
+  color: yellowgreen;
+}
+.ourServices > h2 {
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.imageHeadingButton {
+  height: auto;
+  width: 400px;
+  padding-bottom: 30px;
+}
+.imageHeadingButton > img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 18px solid rgb(239, 245, 230);
+}
+.readMore {
+  border: none;
+  background-color: #da2424;
+  color: white;
+  font-weight: bold;
+  padding: 6px;
+  width: 120px;
+  border-radius: 18px;
+}
+.readMore:hover {
+  border: none;
+  background-color: greenyellow;
+  color: white;
+  font-weight: bold;
+}
+.imageHeadingButton > .heading {
+  font-weight: 700;
+  font-size: 22px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+/* how it works */
+.howItWorks {
+  background-color: #f3f5ed;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.howItWorks > h2 {
+  font-family: "Sacramento", cursive;
+  font-size: 40px;
+  color: yellowgreen;
+}
+.imageHeading > img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.imageContainer {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: chartreuse;
+}
+.imageHeading > .heading {
+  font-weight: 600;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* mobile slide carousel  */
+.slidingControllerContainer {
+  width: 100%;
+  display: inline-flex;
+
+  align-items: center;
+}
+.imageBesideSlide {
+  height: 900px;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.imageBesideSlide > img {
+  height: 100%;
+  border-radius: 25px;
+  margin-left: 150px;
+}
+.carousel-control {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  /* width: 15%; */
+  font-size: 20px;
+  color: rgb(253, 241, 241);
+  text-align: center;
+  background: transparent !important;
+  width: none !important;
+
+  /* opacity: .5; */
+}
+.carousel-caption > h1 {
+  font-family: "Fira Sans", sans-serif;
+  text-align: center;
+  align-items: center;
+  font-weight: 900;
+  font-size: 50px;
+}
+.carousel-caption > p {
+  font-family: "Fira Sans", sans-serif;
+  margin-bottom: 300px;
+}
+/* having images */
+.havingImage {
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.havingImage > img {
+  margin: 20px;
+}
+/* footer css */
+
+.footerContainer {
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  background: linear-gradient();
+  background-color: #292d35;
+  color: white;
+  padding-top: 30px;
+}
+.footerSingleCompo {
+  height: 400px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.footerSingleCompo > h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: yellowgreen;
+}
+.footerSingleCompo > p {
+  word-spacing: 3px;
+  line-height: 2rem;
+  width: 250px;
+  margin-top: 50px;
+}
+.footerSingleCompo > a {
+  text-decoration: none;
+  color: white;
+  font-size: 16;
+  font-weight: 600;
+}
+.footerSingleCompo > a:hover {
+  color: yellowgreen;
+}
+.footerSingleCompo > a > span {
+  color: yellowgreen;
+  font-weight: 700;
+  margin-right: 10px;
+}
+.footerSingleCompo > img {
+  margin-top: 0px;
+  height: 100px;
+  width: 200px;
+}
+.footerSingleCompo > div > .boldAxar {
+  font-size: 18px;
+  font-weight: 700;
+  color: yellowgreen;
+  margin-top: 5px;
+  margin-bottom: 0px !important;
+}
+.footerSingleCompo > div > p:hover {
+  color: yellowgreen;
+}
+.textPara {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

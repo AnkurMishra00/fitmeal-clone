@@ -1,0 +1,451 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+
+body {
+  font-family: "Fira Sans", sans-serif;
+}
+
+.div1{
+  height:400px ;
+  width:1330px ;
+  border:1px solid rgb(53, 51, 51) ;
+  background-color:rgb(58, 55, 55) ;
+}
+.div2{
+  height:70px ;
+  width:1330px ;
+  border:none;
+}
+.div3{
+  height:1500px ;
+  width:1230px ;
+  border:none;
+  margin: auto;
+ }
+ .div3part1{
+  height:700px ;
+  width:390px ;
+  border:none;
+  float: left;
+  margin:10px ;
+  background-color: whitesmoke;
+  border-radius:18px ;
+ }
+ .div3part2big{
+  height:1200px ;
+  width:380px ;
+  border:none;
+  float: left;
+  margin:10px ;
+  border-radius:18px ;
+ }
+  .photo{
+     height:310px ;
+  width:390px ;
+ }
+ .part1{
+  height:370px ;
+  width:390px ;
+  border:none;
+ }
+ .partimg{
+  height:350px ;
+  width:390px ;
+  border:none;
+ }
+ .part1{
+     background-image: url(https://www.fitmeals.co.in/wp-content/uploads/2021/06/1.jpg);
+ }
+ .part11{
+  height:24px ;
+  width:390px ;
+  border:none;
+ }
+ .part11mini{
+  height:38px ;
+  width:158px ;
+  border:1px solid rgb(24, 23, 23) ;
+  margin:auto ;
+  border-radius:21px;
+  background-color: rgb(124, 201, 47);
+  color: white;
+  text-align: center;
+  padding-top:10px ;
+ }
+ .secondpartt{
+  height:15px ;
+  width:390px ;
+  border:none;
+ 
+ }
+ .secondpart{
+  height:235px ;
+  width:380px ;
+  border:none;
+  margin: auto;
+  color:rgb(34, 33, 33) ;
+  background-color:whitesmoke ;
+  text-align: center;
+ }
+ .lastpart{
+  height:80px ;
+  width:387px ;
+  border:2px solid white;
+  margin:auto ;
+ }
+ .lastpart1{
+  height:70px ;
+  width:180px ;
+  border:none;
+  float: right;
+  text-align: center;
+ }
+ .div3part2{
+  height:630px ;
+  width:380px ;
+  border:none;
+  float: left;
+  margin:10px ;
+  border-radius:18px ;
+  background-color: whitesmoke;
+ }
+ .part2{
+  height:250px ;
+  width:380px ;
+  border:none;
+ }
+ .partimgg{
+  height:230px ;
+  width:380px ;
+  border:none;
+ }
+ .part2{
+     background-image: url(https://www.fitmeals.co.in/wp-content/uploads/2021/06/mangoes-1320111_640.jpg);
+ }
+ .part22{
+  height:24px ;
+  width:380px ;
+  border:none;
+ }
+ .part11mini2{
+  height:38px ;
+  width:158px ;
+  border:1px solid rgb(24, 23, 23) ;
+  margin:auto ;
+  border-radius:21px;
+  background-color: rgb(124, 201, 47);
+  color: white;
+  text-align: center;
+  padding-top:10px ;
+ }
+ .secondpartdiv{
+  height:28px ;
+  width:370px ;
+  border:none;
+ }
+ .secondpartdiv1{
+  height:255px ;
+  width:350px ;
+  border:none ;
+  margin: auto;
+  text-align: center;
+  font-size:15px ;
+ }
+ .lastpartdiv2{
+  height:60px ;
+  width:370px ;
+  border:2px solid white;
+  margin: auto;
+
+ }
+ .lastpartdiv3{
+  height:60px ;
+  width:140px ;
+  border:none;
+  float: right;
+  text-align: center;
+ }
+ .helth{
+  height:550px ;
+  width:370px ;
+  border:none;
+  background-color: whitesmoke;
+  margin-top:40px ;
+  border-radius:25px ;
+  
+ }
+.part222{
+ height:250px ;
+ width:370px ;
+ border:none;
+}
+.partimgggg{
+ height:230px ;
+ width:380px ;
+ border:none;
+}
+.part222{
+    background-image: url(https://www.fitmeals.co.in/wp-content/uploads/2021/05/man-461195_640.jpg);
+}
+.part2222{
+ height:24px ;
+ width:380px ;
+ border:none;
+}
+.part11mini22222{
+ height:38px ;
+ width:158px ;
+ border:1px solid rgb(24, 23, 23) ;
+ margin:auto ;
+ border-radius:21px;
+ background-color: rgb(124, 201, 47);
+ color: white;
+ text-align: center;
+ padding-top:10px ;
+}
+.secondpartdiv0{
+ height:28px ;
+ width:370px ;
+ border:none;
+}
+.secondpartdiv00{
+ height:200px ;
+ width:350px ;
+ border:none ;
+ margin: auto;
+ text-align: center;
+ font-size:15px ;
+}
+.lastpartdiv000{
+ height:50px ;
+ width:370px ;
+ border:2px solid white;
+ margin: auto;
+
+}
+.lastpartdiv0000{
+ height:50px ;
+ width:140px ;
+ border:none;
+ float: right;
+ text-align: center;
+}
+
+ .div3part3{
+  height:1410px ;
+  width:390px ;
+  border:none;
+  float: left;
+  margin: 10px;
+ }
+.div18{
+  height:60px ;
+  width:350px ;
+  border:1px solid rgb(41, 39, 39);
+  border-radius:28px ;
+  margin:10px ;
+  font-size:19px ;
+  color:1px solid rgb(59, 56, 56);
+  padding-left:10px ;
+}
+.div18one{
+  height:430px ;
+  width:350px ;
+  border:none;
+  border-radius:30px ;
+  background-color: whitesmoke;
+  margin: auto;
+  text-align: center;
+  font-size:14px ;
+}
+.div18onepart{
+  height:225px ;
+  width:350px ;
+  border:none ;
+
+}
+.div18onepart44{
+  height:250px ;
+  width:350px ;
+  border:none;
+}
+.photo99{
+  height:30px ;
+  width:330px ;
+  border:none;
+}
+.photo999{
+  height:185px ;
+  width:130px ;
+  border:none;
+   border-radius:100px ;
+   margin:auto ;
+}
+.photo100{
+      height:185px ;
+      width:130px ;
+      border-radius:100px ;
+}
+.div55heading{
+  height:65px ;
+  width:190px ;
+  border:none;
+}
+.greenline{
+  height:2px ;
+  width:350px ;
+  border:1px solid rgb(4, 78, 23);
+  background-color: rgb(12, 124, 46);
+}
+.line{
+  height:1px ;
+  width:350px ;
+  border:1px solid rgb(86, 134, 134);
+  background-color:rgb(86, 134, 134) ;
+}
+.greenline2{
+  height:2px ;
+  width:350px ;
+  border:1px solid rgb(4, 78, 23);
+  background-color: rgb(12, 124, 46);
+  margin:5px ;
+}
+.divpage{
+  height:170px ;
+  width:390px ;
+  border:none;
+}
+.divpagepart1{
+  height:150px ;
+  width:126px ;
+  border:none;
+  float: left;
+}
+.divpagepart2{
+  height:150px ;
+  width:250px ;
+  border:none;
+  float: right;
+}
+.img2021{
+  height:125px ;
+  width:126px ;
+  border-radius: 25px;
+}
+.divpage10{
+  height:170px ;
+  width:390px ;
+  border:none ;
+}
+.divpagepart12{
+  height:150px ;
+  width:126px ;
+  border:none ;
+  float: left;
+}
+.divpagepart22{
+  height:150px ;
+  width:250px ;
+  border:none;
+  float: right;
+}
+.divpage100{
+  height:170px ;
+  width:390px ;
+  border:none;
+}
+.divpagepart122{
+  height:150px ;
+  width:126px ;
+  border:none;
+  float: left;
+}
+.divpagepart222{
+  height:150px ;
+  width:250px ;
+  border:none;
+  float: right;
+}
+.sargam{
+  height:50px ;
+  width:180px ;
+  border: none;
+  background-color: rgb(212, 29, 29);
+  border-radius: 25px;
+}
+.footer{
+  height:600px ;
+  width:1330px ;
+  border:none;
+  background-color: rgb(54, 54, 54);
+}
+.footerpart{
+  height:450px ;
+  width:250px ;
+  border:none; 
+  float: left;
+  margin-left:40px;
+  color: white;
+}
+.imgdiv{
+  height:90px;
+  width: 180px;
+  border:none; 
+  margin: auto; 
+}
+.img10{
+  height:80px ;
+  width:150px ;
+}
+.textfooter{
+  height:170px ;
+  width:197px ;
+  margin: auto;
+  border:none;
+  text-align: center;
+  text-align: justify;
+  font-size:15px ;
+  line-height:20px ;
+  
+}
+.greenicon{
+  height:45px ;
+  width:210px ;
+  border:none;
+  margin: auto;
+}
+.greenicon1{
+  height:42px ;
+  width:42px ;
+  border:none;
+  border-radius:90px ;
+  margin:auto ;
+  float: left;
+  margin:10px ;
+  background-color: rgb(112, 197, 27);
+}
+.photo10{
+  height:20px ;
+  width:20px ;
+  margin-top:9px ;
+}
+.minidiv10{
+    height:300px;
+    width:180px ;
+    margin: auto;
+    border:none;
+    text-align: justify;
+    line-height:30px; 
+    float: right;
+}
+.mini22{
+    height:150px ;
+    width:210px ;
+    border:none;
+    color: rgb(91, 161, 20);
+    font-size: 20px;
+}
+.call{
+   height:27px ;
+   width:27px ;
+   margin-right: 5px;
+}
