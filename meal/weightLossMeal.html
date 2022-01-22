@@ -6,16 +6,194 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weight Loss Meal Plan</title>
     <link rel="stylesheet" href="../Styles/navbar.css" />
-    
+    <link rel="stylesheet" href="../Styles/scarousel.css" />
 
-    
-    
     <link rel="stylesheet" href="./Styles/carousel.css" />
-  </head>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    body {
+      background-color: white;
+    }
+
+    .weightLoss1 {
+      width: 100%;
+      height: 300px;
+      background-image: url("https://www.fitmeals.co.in/wp-content/uploads/2018/02/inner-page.jpg");
+
+      background-size: 100% 300px;
+      opacity: 0.9;
+    }
+    .weightLoss11 > h1 {
+      padding: 100px;
+      position: relative;
+      z-index: 11;
+
+      text-align: center;
+      font-size: 30px;
+      font-weight: 700px;
+      color: white;
+    }
+    /* @media (min-width: 1599px){
+    .weightLoss11 {
+      font-size: 48px;
+      color: white;
+    }
+  } */
+    .weightLoss2 {
+      padding: 40px;
+      margin-top: 200px;
+      padding-left: 200px;
+      padding-right: 100px;
+      display: grid;
+      gap: 2%;
+      grid-template-columns: 68% 25%;
+      justify-content: space-around;
+      background-color: #f3f5ed;
+    }
+
+    .weightLoss211 p {
+      font-family: "Open Sans", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+    }
+    .weightLoss212 {
+      width: 163px;
+      margin-top: 40px;
+      padding: 8px 20px;
+      font-family: "Open Sans", sans-serif;
+      font-size: 14px;
+      background-color: #e91e63;
+      border-radius: 3px;
+      color: white;
+    }
+    .weightLoss212:hover,
+    .weightLoss212 a:hover {
+      text-decoration: none;
+      background-color: grey;
+      color: white;
+    }
+    #img1 {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: -1;
+    }
+    .weightLoss221 {
+      font-family: "Sacramento", cursive;
+      /* color: #8ec038; */
+      font-size: 30px;
+      text-align: center;
+      /* font-weight: 300; */
+      /* margin-top: 50px; */
+      vertical-align: middle;
+      /* ************************************************** */
+
+      /* ************************************************** */
+    }
+  </style>
   <body>
-    <div id="navbarCon"  style="margin-top: 100px;"></div>
-    <h1> I am from weight loss</h1>
+    <div id="navbarCon" style="margin-top: 100px"></div>
+    <!-- <h1> I am from weight loss</h1> -->
+
+    <div class="weightLoss" id="weightLoss">
+      <div class="weightLoss1">
+        <div class="weightLoss11"><h1>Weight Loss Meal Plan</h1></div>
+      </div>
+      <div class="weightLoss2">
+        <div class="weightLoss21">
+          <div class="weightLoss211">
+            <p>
+              If your aim is to lose weight in a gradual, healthy manner then
+              this diet would meet your requirements. The meals are well
+              balanced and consist of complex carbohydrates, lean protein,
+              healthy fats and generous portions of fruits and vegetables which
+              add all the essential vitamins, minerals and fibre to your diet
+            </p>
+            <br />
+            <p>
+              Disclaimer: This isn’t going to be any type of a crash diet which
+              will give you magical results; we’ll aim for 2-4kgs per month and
+              all your meals will be designed by our nutritionists who focus not
+              only on seeing results but also on ensuring that there’s no
+              compromise on your mental and physical health.
+            </p>
+          </div>
+          <!-- <img id="img1" src="https://www.fitmeals.co.in/wp-content/uploads/2019/06/1-1-1.jpg" width="100" height="180"> -->
+          <div class="weightLoss212" onclick="myFunction()">
+            <a>view Sample Menu</a>
+          </div>
+        </div>
+        <div class="weightLoss22">
+          <p class="weightLoss221">What our meals look like:</p>
+          <!-- **************************************** -->
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <img
+                src="https://www.fitmeals.co.in/wp-content/uploads/2021/05/DSC02782-1-300x201.jpg"
+                style="width: 100%"
+              />
+
+              <div class="text" style="text-align: center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+
+            <div class="mySlides fade">
+              <img
+                src="https://www.fitmeals.co.in/wp-content/uploads/2019/10/DSC02724-300x201.jpg"
+                style="width: 100%"
+              />
+
+              <div class="text" style="text-align: center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+
+            <div class="mySlides fade">
+              <img
+                src="https://www.fitmeals.co.in/wp-content/uploads/2021/05/keto.jpg"
+                style="width: 100%"
+              />
+
+              <div class="text" style="text-align: center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+
+            <div class="mySlides fade">
+              <img
+                src="https://www.fitmeals.co.in/wp-content/uploads/2021/05/maintenance.jpg"
+                style="width: 100%"
+              />
+
+              <div class="text" style="text-align: center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+          </div>
+          <br />
+        </div>
+      </div>
+    </div>
   </body>
 </html>
 <script type="module">
@@ -23,4 +201,30 @@
   let navbarCon = document.getElementById("navbarCon");
 
   navbarCon.innerHTML = Navbar();
+  function myFunction() {
+    document.getElementById("img1").style.zIndex = 1;
+  }
+</script>
+<script>
+  var slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {
+      slideIndex = 1;
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+    setTimeout(showSlides, 6000); // Change image every 2 seconds
+  }
 </script>
