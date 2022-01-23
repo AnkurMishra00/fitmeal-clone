@@ -19,7 +19,8 @@ body {
   position: fixed;
 
   z-index: 1;
-  background: transparent;
+  /* background: transparent; */
+  
   align-items: center;
   margin-top: -100px;
 }
