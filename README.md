@@ -16,10 +16,6 @@ It's complete clone ui of fitmeal.com
 
 <img src='https://github.com/AnkurMishra00/fitmeal-clone/blob/main/Images/Screenshot%20(4073).png'>
 
-- Login/Signup page
-
-<img src='https://cdn.hashnode.com/res/hashnode/image/upload/v1633258337913/_664GQCGz.png?auto=compress,format&format=webp'>
-
 - Health-coaching page
 
 <img src='https://github.com/AnkurMishra00/fitmeal-clone/blob/main/Images/Screenshot%20(4075).png'>
